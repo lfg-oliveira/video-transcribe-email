@@ -13,7 +13,7 @@ app.use(express.json());
 
 
 const apiKey = process.env.API_KEY || ""
-const origin = new Sender("MS_gw62wt@trial-3z0vklod63xg7qrx.mlsender.net");
+const origin = new Sender("video_transcribe@guidorizzi.com");
 const mailersend = new MailerSend({
     apiKey
 });
